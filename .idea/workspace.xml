@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Tout" />
+    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Tout">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/prestige_cab.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,13 +32,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="h2" />
+    <property name="DatabaseDriversLRU" value="h2&#10;postgresql&#10;mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/images" />
@@ -43,8 +49,22 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mdeso\Desktop\prestige-cab\src\main\resources\static\images" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mdeso\Desktop\prestige-cab\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrestigeCabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="prestige-cab" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.prestigecab.prestigecab.PrestigeCabApplication" />
@@ -64,7 +84,8 @@
       <workItem from="1612560915167" duration="8404000" />
       <workItem from="1612569401635" duration="269000" />
       <workItem from="1612569710812" duration="721000" />
-      <workItem from="1612570446006" duration="63000" />
+      <workItem from="1612570446006" duration="267000" />
+      <workItem from="1612797679931" duration="4107000" />
     </task>
     <task id="LOCAL-00001" summary="Tout">
       <created>1612569877410</created>
