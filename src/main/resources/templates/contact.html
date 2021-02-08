@@ -11,7 +11,7 @@
 <body>
 <nav class="navbar navbar-expand-lg  navbar navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="http://localhost:8080/"><img style="width: 50px; height: 50px" src="/images/Prestige-Cab(1).png">  </a>
+        <a class="navbar-brand" href="http://localhost:8080/"><img style="width: 50px; height: 50px" src="/images/Prestige-Cab(1).png">  </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,9 +44,9 @@
             </ul>
             <form class="d-flex">
                 <ul>
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:8080/login">Admin</a>
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:8080/login">Admin</a>
+                </li>
                 </ul>
             </form>
         </div>
@@ -54,7 +54,49 @@
 </nav>
 <br>
 <div class="container">
-    <h1>Accueil</h1>
+    <h1>Contact</h1>
+
+    <form>
+
+        <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="nom"></label>
+            <input type="text" class="form-control" id="nom" placeholder="Nom">
+        </div>
+        </div>
+        <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="prenom"></label>
+            <input type="text" class="form-control" id="prenom" placeholder="Prenom">
+        </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4"></label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-row">
+
+            <div class="form-group col-md-4">
+                <label for="inputState"></label>
+                <select id="inputState" class="form-control">
+                    <option selected>Demande</option>
+                    <option>Questions</option>
+                    <option>Devis</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Decrivez votre demande" rows="3"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+        </div>
+
+        <br>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
 
 </div>
 </body>

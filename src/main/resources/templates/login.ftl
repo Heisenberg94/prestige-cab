@@ -29,18 +29,25 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="http://localhost:8080/berline">Berline</a></li>
-                        <li><a class="dropdown-item" href="http://localhost:8080/fourgonette">Fourgonette</a></li>
+                        <li><a class="dropdown-item" href="http://localhost:8080/utilitaire">Utilitaire</a></li>
                         <li><a class="dropdown-item" href="http://localhost:8080/citadine">Citadine</a></li>
+                        <li><a class="dropdown-item" href="http://localhost:8080/monospace">Monospace</a></li>
+                        <li><a class="dropdown-item" href="http://localhost:8080/sport">Sport</a></li>
+                        <li><a class="dropdown-item" href="http://localhost:8080/suv">4*4 SUV</a></li>
                         <li><a class="dropdown-item" href="#"></a></li>
                     </ul>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost:8080/login">Admin</a>
+                    <a class="nav-link" href="http://localhost:8080/contact">Contact</a>
                 </li>
             </ul>
             <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost:8080/login">Admin</a>
+                    </li>
+                </ul>
             </form>
         </div>
     </div>

@@ -41,11 +41,32 @@ public class Main {
         return "citadine";
     }
 
-    @GetMapping("/fourgonette")
-    public String Fourgonette(){
+    @GetMapping("/utilitaire")
+    public String Utilitaire(){
 
-        return "fourgonette";
+        return "utilitaire";
+    }
+    @GetMapping("/monospace")
+    public String Monospace(){
+
+        return "monospace";
     }
 
+    @GetMapping("/suv")
+    public String Suv(){
 
+        return "suv";
+    }
+
+    @GetMapping("/sport")
+    public String Sport(){
+
+        return "sport";
+    }
+
+    @GetMapping("/contact")
+    public String Contact(){
+
+        return "contact";
+    }
 }

@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Tout">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/prestige_cab.sql" afterDir="false" />
+    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Ajout de la base de donnée sur intelliJ">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/monospace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/suv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/berline.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/berline.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/citadine.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/citadine.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fourgonette.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/utilitaire.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/prestigecab/prestigecab/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prestigecab/prestigecab/controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/berline.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/berline.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/citadine.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/citadine.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fourgonette.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="h2&#10;postgresql&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -85,7 +102,7 @@
       <workItem from="1612569401635" duration="269000" />
       <workItem from="1612569710812" duration="721000" />
       <workItem from="1612570446006" duration="267000" />
-      <workItem from="1612797679931" duration="4107000" />
+      <workItem from="1612797679931" duration="7512000" />
     </task>
     <task id="LOCAL-00001" summary="Tout">
       <created>1612569877410</created>
@@ -94,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612569877410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout de la base de donnée sur intelliJ">
+      <created>1612801918018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612801918018</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajout de la base de donnée sur intelliJ">
+      <created>1612801935865</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612801935865</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +148,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Tout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tout" />
+    <MESSAGE value="Ajout de la base de donnée sur intelliJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la base de donnée sur intelliJ" />
   </component>
 </project>
