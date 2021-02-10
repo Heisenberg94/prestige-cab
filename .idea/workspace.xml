@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Ajout de la base de donnée sur intelliJ">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/monospace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/suv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/berline.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/berline.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/citadine.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/citadine.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fourgonette.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/utilitaire.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/prestigecab/prestigecab/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prestigecab/prestigecab/controller/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/berline.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/berline.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/citadine.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/citadine.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fourgonette.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
-    </list>
+    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Creation du contact.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,13 +51,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +84,7 @@
       <workItem from="1612569401635" duration="269000" />
       <workItem from="1612569710812" duration="721000" />
       <workItem from="1612570446006" duration="267000" />
-      <workItem from="1612797679931" duration="7512000" />
+      <workItem from="1612797679931" duration="8263000" />
     </task>
     <task id="LOCAL-00001" summary="Tout">
       <created>1612569877410</created>
@@ -125,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612801935865</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creation du contact.html">
+      <created>1612816053882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612816053882</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +138,7 @@
     </ignored-roots>
     <MESSAGE value="Tout" />
     <MESSAGE value="Ajout de la base de donnée sur intelliJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la base de donnée sur intelliJ" />
+    <MESSAGE value="Creation du contact.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation du contact.html" />
   </component>
 </project>

@@ -49,24 +49,24 @@ public class Main {
     @GetMapping("/monospace")
     public String Monospace(){
 
-        return "monospace";
+        return "monospace.ftl";
     }
 
     @GetMapping("/suv")
     public String Suv(){
 
-        return "suv";
+        return "suv.ftl";
     }
 
     @GetMapping("/sport")
     public String Sport(){
 
-        return "sport";
+        return "sport.ftl";
     }
 
     @GetMapping("/contact")
     public String Contact(){
 
-        return "contact";
+        return "contact.ftl";
     }
 }
