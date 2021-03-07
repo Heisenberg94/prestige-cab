@@ -1,9 +1,7 @@
 package com.prestigecab.prestigecab.services;
 
 import com.google.common.collect.Lists;
-import com.prestigecab.prestigecab.Model.Categories;
-import com.prestigecab.prestigecab.Model.Items;
-import com.prestigecab.prestigecab.dao.ItemRepository;
+import com.prestigecab.prestigecab.Model.Vehicules;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,22 +11,23 @@ import java.util.List;
 
 @Service
 public class VoituresDataSource {
-ItemRepository itemRepository;
+com.prestigecab.prestigecab.dao.VehiculesRepository VehiculesRepository;
 
 
 @Autowired
-public VoituresDataSource(ItemRepository itemRepository){
+public VoituresDataSource(com.prestigecab.prestigecab.dao.VehiculesRepository vehiculesRepository){
 
-    this.itemRepository=itemRepository;
+    this.VehiculesRepository =vehiculesRepository;
 }
 
-public List <Items> getItems(){
-    return Lists.newArrayList(itemRepository.findAll());
+public List <Vehicules> getVehicules(){
+    return Lists.newArrayList(VehiculesRepository.findAll());
 }
 
-public Items getItem(Long id){
-    return itemRepository.findById(id).orElse(new Items());
+public Vehicules getVehicules(Long id){
+    return VehiculesRepository.findById(id).orElse(new Vehicules());
 }
-public void deleteItem(long id){itemRepository.deleteById(id);}
+public void deleteVehicules(long id){
+    VehiculesRepository.deleteById(id);}
 
 }

@@ -8,8 +8,9 @@
 <body>
 
 <ul>
-    <li th:each="item: ${items}">
-        <span th:text="${item.description}"></span>
+    <li th:each="vehicule: ${vehicules}">
+
+        <span th:text="${vehicule.nom} ${vehicule.getDescription()}"+></span>
     </li>
 </ul>
 

@@ -21,60 +21,60 @@ public class Main {
 
     @GetMapping("/")
     public String Index(Model model){
-        model.addAttribute("items",voituresDataSource.getItems());
+        model.addAttribute("vehicules",voituresDataSource.getVehicules());
         return "index";
     }
 
     @GetMapping("/login")
     public String Login( Model model,HttpServletRequest req){
 
-        return "login.html";
+        return "login";
     }
 
     @PostMapping("/admin")
     public String Admin(@ModelAttribute(name = "formulaire") Formulaire formulaire,Model model){
         model.addAttribute("formulaire",formulaire);
-        return "admin.html";
+        return "admin";
     }
 
     @GetMapping("/berline")
     public String Berline(){
 
-        return "berline.html";
+        return "berline";
     }
 
     @GetMapping("/citadine")
     public String Citadine(){
 
-        return "citadine.html";
+        return "citadine";
     }
 
     @GetMapping("/utilitaire")
     public String Utilitaire(){
 
-        return "utilitaire.html";
+        return "utilitaire";
     }
     @GetMapping("/monospace")
     public String Monospace(){
 
-        return "monospace.html";
+        return "monospace";
     }
 
     @GetMapping("/suv")
     public String Suv(){
 
-        return "suv.html";
+        return "suv";
     }
 
     @GetMapping("/sport")
     public String Sport(){
 
-        return "sport.html";
+        return "sport";
     }
 
     @GetMapping("/contact")
     public String Contact(){
 
-        return "contact.html";
+        return "contact";
     }
 }

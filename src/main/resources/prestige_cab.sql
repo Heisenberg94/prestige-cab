@@ -23,8 +23,8 @@ INSERT INTO `categories` (`id`, `name`) VALUES
 (6, 'utilitaire');
 
 
-DROP TABLE IF EXISTS `items`;
-CREATE TABLE IF NOT EXISTS `items` (
+DROP TABLE IF EXISTS `vehicules`;
+CREATE TABLE IF NOT EXISTS `vehicules` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(1000) NOT NULL,
   `description` varchar(1000) NOT NULL,
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `items` (
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
 
 
-INSERT INTO `items` (`id`, `name`, `description`, `price`, `image_1`, `image_2`, `image_3`, `category`) VALUES
+INSERT INTO `vehicules` (`id`, `name`, `description`, `price`, `image_1`, `image_2`, `image_3`, `category`) VALUES
 (1, 'Fiche technique Mercedes Classe GLS GLS 400d 4Matic 9G-Tronic Executive (Tout-Terrain)', 'Tout-Terrain - 4roues permanent - Diesel - \r\nBoîte automatique, 9 vitesses - 0 cv - 330 ch / 243 kW \r\nConsommation mixte: 7,5 L/100 km \r\nAutonomie moyenne: 1 200 km \r\nDimensions (L x l x h): 5,207 m x 1,999 m x 1,823 m\r\n\r\n110 000 km', 67000, 'gle-1.jpg', 'gle-2.jpg', 'gle-3.jpg', 1),
 (2, 'Fiche technique Peugeot 5008 1.6i THP 165 EAT6 Crossway (Tout-Terrain)', 'Tout-Terrain - Traction avant - Essence - \r\nBoîte automatique, 6 vitesses - 9 cv - 165 ch / 121 kW \r\nConsommation mixte: 6,1 L/100 km \r\nAutonomie moyenne: 918 km \r\nDimensions (L x l x h): 4,641 m x 1,844 m x 1,640 m\r\n\r\n2017\r\n\r\n80 000 km', 34000, '5008-1.jpg', '5008-2.jpg', '5008-3.jpg', 1),
 (3, 'Fiche technique Porsche Macan Turbo 3.0 440 ch BVA PDK (Tout-Terrain)', 'Tout-Terrain - Transmission intégrale débrayable - Essence - \r\nBoîte séquentielle, 7 vitesses - 33 cv - 440 ch / 324 kW \r\nConsommation mixte: 9,8 L/100 km \r\nAutonomie moyenne: 765 km \r\nDimensions (L x l x h): 4,684 m x 1,926 m x 1,624 m\r\n\r\n2018\r\n\r\n140 000 km', 50000, 'macan-1.jpg', 'macan-2.jpg', 'macan-3.jpg', 1),
@@ -59,7 +59,7 @@ INSERT INTO `items` (`id`, `name`, `description`, `price`, `image_1`, `image_2`,
 (21, 'Fiche technique Volkswagen Caddy 1.2 TSI 84 Conceptline (Combiné)', 'Combiné - Traction avant - Essence - \r\nBoîte manuelle, 5 vitesses - 5 cv - 84 ch / 62 kW \r\nConsommation mixte: 6,1 L/100 km \r\nAutonomie moyenne: 902 km \r\nDimensions (L x l x h): 4,408 m x 1,793 m x 1,822 m\r\n\r\n2013\r\n\r\n140 000 km', 5500, 'caddy-1.jpg', 'caddy-2.jpg', 'caddy-3.jpg', 6);
 
 
-ALTER TABLE `items`
+ALTER TABLE `vehicules`
   ADD CONSTRAINT `items_ibfk_1` FOREIGN KEY (`category`) REFERENCES `categories` (`id`);
 COMMIT;
 

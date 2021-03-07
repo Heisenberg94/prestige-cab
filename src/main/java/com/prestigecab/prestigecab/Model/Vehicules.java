@@ -4,8 +4,8 @@ import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table(name = "ITEMS")
-public class Items {
+@Table(name = "VEHICULES")
+public class Vehicules {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID", nullable = false)
@@ -89,8 +89,8 @@ public class Items {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Items items = (Items) o;
-        return id == items.id && prix == items.prix && nom.equals(items.nom) && description.equals(items.description) && image1.equals(items.image1) && image2.equals(items.image2) && image3.equals(items.image3);
+        Vehicules vehicules = (Vehicules) o;
+        return id == vehicules.id && prix == vehicules.prix && nom.equals(vehicules.nom) && description.equals(vehicules.description) && image1.equals(vehicules.image1) && image2.equals(vehicules.image2) && image3.equals(vehicules.image3);
     }
 
     @Override
@@ -100,7 +100,7 @@ public class Items {
 
     @Override
     public String toString() {
-        return "Items{" +
+        return "Vehicules{" +
                 "id=" + id +
                 ", nom='" + nom + '\'' +
                 ", description='" + description + '\'' +

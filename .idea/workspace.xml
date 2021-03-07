@@ -5,61 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Moification du Main">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_10_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_27_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Categories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/VoituresDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/VehiculesFormDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prestige-cab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/prestige-cab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Vehicules.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/berline.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/berline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/citadine.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/citadine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/monospace.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/monospace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sport.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/suv.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/suv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/utilitaire.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/utilitaire.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/VoituresDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/VoituresDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/prestige_cab.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/prestige_cab.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/prestigecab/prestigecab/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prestigecab/prestigecab/controller/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/berline.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/citadine.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -96,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-crud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
@@ -148,7 +103,11 @@
       <workItem from="1614942624996" duration="18000" />
       <workItem from="1614942659577" duration="3826000" />
       <workItem from="1615113880393" duration="12000" />
-      <workItem from="1615114119452" duration="2641000" />
+      <workItem from="1615114119452" duration="3001000" />
+      <workItem from="1615117344836" duration="3430000" />
+      <workItem from="1615130004171" duration="1754000" />
+      <workItem from="1615132085006" duration="235000" />
+      <workItem from="1615132558695" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="Tout">
       <created>1612569877410</created>
@@ -192,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612958377504</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Creation Crud">
+      <created>1615116917918</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615116917918</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +185,8 @@
     <MESSAGE value="Creation du contact.html" />
     <MESSAGE value="Creation du contact.ftl" />
     <MESSAGE value="Moification du Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moification du Main" />
+    <MESSAGE value="Creation Crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation Crud" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
