@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Liste des voitures</title>
+</head>
+<body>
+
+<ul>
+    <li th:each="item: ${items}">
+        <span th:text="${item.description}"></span>
+    </li>
+</ul>
+
+
+
+</body>
+</html>
