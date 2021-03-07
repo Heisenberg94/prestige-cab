@@ -1,4 +1,4 @@
-package com.prestigecab.prestigecab;
+package com.prestigecab.prestigecab.formdata;
 
 public class VehiculesFormDTO {
     private long id;

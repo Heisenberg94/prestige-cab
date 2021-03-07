@@ -4,17 +4,18 @@
 
     <meta charset="UTF-8">
     <title>Liste des voitures</title>
+    <link th:replace="Fragments/bootstrap">
 </head>
 <body>
-
+<div th:replace="Fragments/navbar"></div>
+<h1>Hello</h1>
 <ul>
     <li th:each="vehicule: ${vehicules}">
 
-        <span th:text="${vehicule.nom} ${vehicule.getDescription()}"+></span>
+        <span th:text="${vehicule.nom} ${vehicule.description}"></span>
+
     </li>
 </ul>
-
-
 
 </body>
 </html>

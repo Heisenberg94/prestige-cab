@@ -20,14 +20,18 @@ public class Vehicules {
     @Column(name = "PRICE",nullable = false)
     private long prix;
     @Basic
-    @Column(name = "IMAGE_1",nullable = false,length = 250)
+    @Column(name = "IMAGE1",nullable = false,length = 250)
     private String image1;
     @Basic
-    @Column(name = "IMAGE_2",nullable = false,length = 250)
+    @Column(name = "IMAGE2",nullable = false,length = 250)
     private String image2;
     @Basic
-    @Column(name = "IMAGE_3",nullable = false,length = 250)
+    @Column(name = "IMAGE3",nullable = false,length = 250)
     private String image3;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "CATEGORY")
+    private Type type;
+
 
     public long getId() {
         return id;
