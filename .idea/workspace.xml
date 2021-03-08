@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Moification de la base de donnée et création de VehiculesFormDTO">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/dao/TypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Fragments/bootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Fragments/navbar.html" afterDir="false" />
+    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Creation des Fragments et création de Type">
+      <change afterPath="$PROJECT_DIR$/src/main/java/prestige-cab.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prestige-cab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/prestige-cab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Vehicules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Vehicules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/VehiculesFormDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/formdata/VehiculesFormDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/VoituresDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/VoituresDataSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/berline.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/berline.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/citadine.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/citadine.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
@@ -61,11 +56,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mdeso\Desktop\prestige-cab\src\main\java" />
       <recent name="C:\Users\mdeso\Desktop\prestige-cab\src\main\resources\static\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -73,13 +69,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,7 +115,8 @@
       <workItem from="1615117344836" duration="3430000" />
       <workItem from="1615130004171" duration="1754000" />
       <workItem from="1615132085006" duration="235000" />
-      <workItem from="1615132558695" duration="4921000" />
+      <workItem from="1615132558695" duration="5607000" />
+      <workItem from="1615191844039" duration="2236000" />
     </task>
     <task id="LOCAL-00001" summary="Tout">
       <created>1612569877410</created>
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615133730344</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Creation des Fragments et création de Type">
+      <created>1615137559440</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615137559440</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +210,8 @@
     <MESSAGE value="Moification du Main" />
     <MESSAGE value="Creation Crud" />
     <MESSAGE value="Moification de la base de donnée et création de VehiculesFormDTO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moification de la base de donnée et création de VehiculesFormDTO" />
+    <MESSAGE value="Creation des Fragments et création de Type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation des Fragments et création de Type" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

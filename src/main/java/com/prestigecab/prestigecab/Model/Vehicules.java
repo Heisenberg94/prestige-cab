@@ -28,9 +28,9 @@ public class Vehicules {
     @Basic
     @Column(name = "IMAGE3",nullable = false,length = 250)
     private String image3;
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "CATEGORY")
-    private Type type;
+    @Basic
+    @Column(name = "CATEGORY")
+    private int category;
 
 
     public long getId() {
