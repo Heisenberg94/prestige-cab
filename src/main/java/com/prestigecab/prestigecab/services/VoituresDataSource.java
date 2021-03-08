@@ -5,6 +5,7 @@ import com.prestigecab.prestigecab.Model.Vehicules;
 import com.prestigecab.prestigecab.formdata.VehiculesFormDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.GetMapping;
 
 
 import java.util.List;
@@ -40,4 +41,6 @@ public void saveVehicule(VehiculesFormDTO vehiculesDTO){
 
     VehiculesRepository.save(vehiculesDB);
 }
+
+
 }

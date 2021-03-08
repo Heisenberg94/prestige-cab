@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Liste des voitures</title>
+    <link th:replace="Fragments/bootstrap">
+</head>
+<body>
+<div th:replace="Fragments/navbar"></div>
+
+<form
+        action="#"
+        enctype="multipart/form-data"
+        method="post"
+        th:action="@{/vehicule}"
+        th:object="${vehicules}">
+    <input th:field="*{id}" type="hidden">
+
+
+
+    Nom : <input th:field="*{nom}" type="text"><br/>
+
+    Descriptif : <textarea cols="80" rows="10" th:field="*{description}">Résumé du film</textarea><br/>
+
+    Prix : <input th:field="*{prix}" type="text"><br/>
+
+    Image1: <input th:field="*{image1}" type="text"><br/>
+    Image2: <input th:field="*{image2}" type="text"><br/>
+    Image3: <input th:field="*{image3}" type="text"><br/>
+
+
+    <input type="submit" value="Valider"><br/>
+</form>
+
+
+
+</body>
+</html>
