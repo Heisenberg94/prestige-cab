@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Creation des Fragments et création de Type">
-      <change afterPath="$PROJECT_DIR$/src/main/java/prestige-cab.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Amelioration du thymelief, &#10;Création de la methode SaveVehicule">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Vehicules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Vehicules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/VoituresDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/VoituresDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/berline.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/berline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/citadine.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/citadine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/monospace.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/monospace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sport.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/suv.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/suv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/utilitaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/utilitaire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +44,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-hibernate-thymeleaf" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
@@ -69,19 +57,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrestigeCabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="prestige-cab" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.prestigecab.prestigecab.PrestigeCabApplication" />
@@ -116,7 +91,8 @@
       <workItem from="1615130004171" duration="1754000" />
       <workItem from="1615132085006" duration="235000" />
       <workItem from="1615132558695" duration="5607000" />
-      <workItem from="1615191844039" duration="2236000" />
+      <workItem from="1615191844039" duration="2848000" />
+      <workItem from="1615194801253" duration="1070000" />
     </task>
     <task id="LOCAL-00001" summary="Tout">
       <created>1612569877410</created>
@@ -181,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615137559440</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Amelioration du thymelief, &#10;Création de la methode SaveVehicule">
+      <created>1615194178480</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615194178480</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +194,8 @@
     <MESSAGE value="Creation Crud" />
     <MESSAGE value="Moification de la base de donnée et création de VehiculesFormDTO" />
     <MESSAGE value="Creation des Fragments et création de Type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation des Fragments et création de Type" />
+    <MESSAGE value="Amelioration du thymelief, &#10;Création de la methode SaveVehicule" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amelioration du thymelief, &#10;Création de la methode SaveVehicule" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
