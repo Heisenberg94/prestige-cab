@@ -4,72 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Base de donnée fonctionnel">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/4x4 suv/mercedes gls/gls-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/4x4 suv/mercedes gls/gls-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/4x4 suv/mercedes gls/gls-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/4x4 suv/peugeot 5008/5008-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/4x4 suv/peugeot 5008/5008-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/4x4 suv/peugeot 5008/5008-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/4x4 suv/porche macan/macan-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/4x4 suv/porche macan/macan-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/4x4 suv/porche macan/macan-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/berline/audi a4/a4-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/berline/audi a4/a4-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/berline/audi a4/a4-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/berline/bmw serie 3/s3-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/berline/bmw serie 3/s3-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/berline/bmw serie 3/s3-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/berline/classe c/c-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/berline/classe c/c-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/berline/classe c/c-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/citadine/208/208-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/citadine/208/208-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/citadine/208/208-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/citadine/clio/clio-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/citadine/clio/clio-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/citadine/clio/clio-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/citadine/volkswagen polo/polo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/citadine/volkswagen polo/polo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/citadine/volkswagen polo/polo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/monospace/golf 7 sportvan/golf 7 -2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/monospace/golf 7 sportvan/golf 7-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/monospace/golf 7 sportvan/golf-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/monospace/opel zafira/zafira-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/monospace/opel zafira/zafira-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/monospace/opel zafira/zafira-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sport/aston martin db11/db11-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sport/aston martin db11/db11-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sport/aston martin db11/db11-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sport/ferrari 812 superfast/812-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sport/ferrari 812 superfast/812-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sport/ferrari 812 superfast/812-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sport/lamborgini  huracan lp 610/610-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sport/lamborgini  huracan lp 610/lp610-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sport/lamborgini  huracan lp 610/lp610-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sport/porsche cayman gt4/cayman gt4-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sport/porsche cayman gt4/cayman gt4-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sport/porsche cayman gt4/cayman gts4-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/utilitaire/opel vivaro/vivaro -1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/utilitaire/opel vivaro/vivaro -2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/utilitaire/opel vivaro/vivaro-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/utilitaire/peugeot boxer/boxer-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/utilitaire/peugeot boxer/boxer-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/utilitaire/peugeot boxer/boxer-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/utilitaire/wolkswagen caddy/caddy-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/utilitaire/wolkswagen caddy/caddy-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/utilitaire/wolkswagen caddy/caddy-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/vehiculesform.html" afterDir="false" />
+    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Le CRUD est totallement fonctionnel !!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prestige-cab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/prestige-cab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Vehicules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Vehicules.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/VoituresDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/VoituresDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Fragments/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Fragments/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vehiculesform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vehiculesform.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/prestigecab/prestigecab/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prestigecab/prestigecab/controller/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +97,8 @@
       <workItem from="1615132558695" duration="5607000" />
       <workItem from="1615191844039" duration="2848000" />
       <workItem from="1615194801253" duration="8296000" />
-      <workItem from="1615211741500" duration="622000" />
+      <workItem from="1615211741500" duration="1661000" />
+      <workItem from="1615213430332" duration="3178000" />
     </task>
     <task id="LOCAL-00001" summary="Tout">
       <created>1612569877410</created>
@@ -236,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615195976331</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Le CRUD est totallement fonctionnel !!!">
+      <created>1615212649139</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615212649139</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +216,8 @@
     <MESSAGE value="Creation des Fragments et création de Type" />
     <MESSAGE value="Amelioration du thymelief, &#10;Création de la methode SaveVehicule" />
     <MESSAGE value="Base de donnée fonctionnel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base de donnée fonctionnel" />
+    <MESSAGE value="Le CRUD est totallement fonctionnel !!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Le CRUD est totallement fonctionnel !!!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -53,58 +53,48 @@ public class Main {
         return "redirect:/admin";
     }
 
-
     @GetMapping("/admin")
     public String Admin(@ModelAttribute(name = "formulaire") Formulaire formulaire,Model model){
-//        model.addAttribute("formulaire",formulaire);
-        model.addAttribute("vehicules",voituresDataSource.getVehicules());
-        return "admin";
+    model.addAttribute("vehicules",voituresDataSource.getVehicules());
+    return "admin";
     }
 
     @GetMapping("/login")
     public String Login( Model model,HttpServletRequest req){
-
-        return "login";
+    return "login";
     }
 
     @GetMapping("/berline")
     public String Berline(){
-
-        return "berline";
+    return "berline";
     }
 
     @GetMapping("/citadine")
     public String Citadine(){
-
-        return "citadine";
+    return "citadine";
     }
 
     @GetMapping("/utilitaire")
     public String Utilitaire(){
-
-        return "utilitaire";
+    return "utilitaire";
     }
     @GetMapping("/monospace")
     public String Monospace(){
-
-        return "monospace";
+    return "monospace";
     }
 
     @GetMapping("/suv")
     public String Suv(){
-
-        return "suv";
+    return "suv";
     }
 
     @GetMapping("/sport")
     public String Sport(){
-
-        return "sport";
+    return "sport";
     }
 
     @GetMapping("/contact")
     public String Contact(){
-
-        return "contact";
+    return "contact";
     }
 }

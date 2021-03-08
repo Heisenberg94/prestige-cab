@@ -10,7 +10,9 @@
 <div th:replace="Fragments/navbar"></div>
   <h1> Administrateur</h1>
 
-<ul th:each="vehicule: ${vehicules}">
+<!--<a href="#" th:href="@{'/admin/'+${vehicule.id}}">Edit</a>-->
+<div class="container">
+<ul  th:each="vehicule: ${vehicules}">
     <li>
 
         <span th:text="${vehicule.nom}"></span><br>Description:
@@ -26,6 +28,6 @@
 
     </li>
 </ul>
-
+</div>
 </body>
 </html>

@@ -14,7 +14,7 @@ public class Vehicules {
     @Column(name = "NAME", nullable = false, length = 50)
     private String nom;
     @Basic
-    @Column(name = "DESCRIPTION", nullable = false, length = 120)
+    @Column(name = "DESCRIPTION", nullable = false, length = 1000)
     private String description;
     @Basic
     @Column(name = "PRICE",nullable = false)
