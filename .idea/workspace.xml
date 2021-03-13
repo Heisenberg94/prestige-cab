@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Le CRUD est totallement fonctionnel !!!">
+    <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Mise en page du fichier vehiculesform.html avec bootstrap">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_api_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_booter_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_logger_api_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/ImageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prestige-cab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/prestige-cab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Vehicules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Vehicules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vehiculesform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vehiculesform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/prestigecab/prestigecab/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prestigecab/prestigecab/controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,7 +47,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql&#10;mysql&#10;h2" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;h2&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -48,7 +59,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../prestige-cab-master1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../golf" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
@@ -61,6 +72,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrestigeCabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="prestige-cab" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.prestigecab.prestigecab.PrestigeCabApplication" />
@@ -98,7 +122,9 @@
       <workItem from="1615191844039" duration="2848000" />
       <workItem from="1615194801253" duration="8296000" />
       <workItem from="1615211741500" duration="1661000" />
-      <workItem from="1615213430332" duration="3178000" />
+      <workItem from="1615213430332" duration="3853000" />
+      <workItem from="1615313896045" duration="5054000" />
+      <workItem from="1615628112862" duration="5635000" />
     </task>
     <task id="LOCAL-00001" summary="Tout">
       <created>1612569877410</created>
@@ -184,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615212649139</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Mise en page du fichier vehiculesform.html avec bootstrap">
+      <created>1615221996686</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615221996686</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +250,8 @@
     <MESSAGE value="Amelioration du thymelief, &#10;Création de la methode SaveVehicule" />
     <MESSAGE value="Base de donnée fonctionnel" />
     <MESSAGE value="Le CRUD est totallement fonctionnel !!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Le CRUD est totallement fonctionnel !!!" />
+    <MESSAGE value="Mise en page du fichier vehiculesform.html avec bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en page du fichier vehiculesform.html avec bootstrap" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

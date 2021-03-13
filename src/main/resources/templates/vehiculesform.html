@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr" xmlns:th="http://www.thymeleaf.org">
 <head>
-
     <meta charset="UTF-8">
     <title>Liste des voitures</title>
     <link th:replace="Fragments/bootstrap">
@@ -18,39 +17,21 @@
         th:action="@{/vehicule}"
         th:object="${vehicules}">
     <input th:field="*{id}" type="hidden">
-
-
 <div class="row">
-
     <div class="col-md-6">
-   <input class="form-control" placeholder="NOM" th:field="*{nom}" type="text"><br/>
-
+    <input class="form-control" placeholder="NOM" th:field="*{nom}" type="text"><br/>
     <textarea class="form-control" placeholder="DESCRIPTION" cols="80" rows="10" th:field="*{description}">Résumé du film</textarea><br/>
-
-
     <input class="form-control" placeholder="PRIX" th:field="*{prix}" type="text"><br/>
-
 </div>
     <div class="col-md-6">
-
-            <input class="form-control" placeholder="IMAGE_1" th:field="*{image1}" type="text"><br/>
-
-
-
-            <input class="form-control" placeholder="IMAGE_2" th:field="*{image2}" type="text"><br/>
-
-
-            <input class="form-control" placeholder="IMAGE_3" th:field="*{image3}" type="text"><br/>
+    <input class="form-control" placeholder="IMAGE_1" th:field="*{image1}" type="text"><br/>
+    <input class="form-control" placeholder="IMAGE_2" th:field="*{image2}" type="text"><br/>
+    <input class="form-control" placeholder="IMAGE_3" th:field="*{image3}" type="text"><br/>
 
     </div>
 </div>
     <input class="btn btn-primary" type="submit" value="Valider"><br/>
-
 </form>
-
 </div>
-
-
-
 </body>
 </html>

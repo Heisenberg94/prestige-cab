@@ -11,7 +11,7 @@ public class Vehicules {
     @Column(name = "ID", nullable = false)
     private long id;
     @Basic
-    @Column(name = "NAME", nullable = false, length = 50)
+    @Column(name = "NAME", nullable = false, length = 1000)
     private String nom;
     @Basic
     @Column(name = "DESCRIPTION", nullable = false, length = 1000)
@@ -28,10 +28,9 @@ public class Vehicules {
     @Basic
     @Column(name = "IMAGE3",nullable = false,length = 250)
     private String image3;
-    @Basic
-    @Column(name = "CATEGORY")
-    private int category;
-
+    @ManyToOne
+    @JoinColumn(name ="CATEGORY")
+    private Type category;
 
     public long getId() {
         return id;
@@ -89,6 +88,14 @@ public class Vehicules {
         this.image3 = image3;
     }
 
+    public Type getCategory() {
+        return category;
+    }
+
+    public void setCategory(Type idType) {
+        this.category = idType;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -100,18 +107,5 @@ public class Vehicules {
     @Override
     public int hashCode() {
         return Objects.hash(id, nom, description, prix, image1, image2, image3);
-    }
-
-    @Override
-    public String toString() {
-        return "Vehicules{" +
-                "id=" + id +
-                ", nom='" + nom + '\'' +
-                ", description='" + description + '\'' +
-                ", prix=" + prix +
-                ", image1='" + image1 + '\'' +
-                ", image2='" + image2 + '\'' +
-                ", image3='" + image3 + '\'' +
-                '}';
     }
 }
