@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 
 @Service
 public class ImageManager {
-    @Value("/C:/wamp64/www/prestige-cab-img")
+    @Value("${prestige.img.path}")
     String path;
 
     public int saveImage1(Vehicules v, InputStream fi) {

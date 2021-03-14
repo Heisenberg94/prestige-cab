@@ -8,6 +8,7 @@ public class VehiculesFormDTO {
     private String image1;
     private String image2;
     private String image3;
+    private long category;
 
     public long getId() {
         return id;
@@ -63,5 +64,13 @@ public class VehiculesFormDTO {
 
     public void setImage3(String image3) {
         this.image3 = image3;
+    }
+
+    public long getCategory() {
+        return category;
+    }
+
+    public void setCategory(long category) {
+        this.category = category;
     }
 }

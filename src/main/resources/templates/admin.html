@@ -16,7 +16,7 @@
         <span th:text="${vehicule.nom}"></span><br>Description:
         <span th:text="${vehicule.description}"></span><br>Prix:
         <span th:text="${vehicule.prix}"></span><br>
-        <span th:text="${vehicule.image1}"></span><br>
+        <img src="/images/Prestige-Cab(1).png" th:src="@{'/img/vehicule/image1/'+*{vehicule.image1}}" alt="image1"><br>
         <span th:text="${vehicule.image2}"></span><br>
         <span th:text="${vehicule.image3}"></span><br>
         <a href="#" th:href="@{'/admin/'+${vehicule.id}}">Edit</a>
