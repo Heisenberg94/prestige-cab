@@ -21,6 +21,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="entityManagerFactory" value="223cff9c-7c93-450a-8b1d-0bef7327a570" />
+          <factory-entry name="prestige-cab" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>

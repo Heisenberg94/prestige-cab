@@ -11,6 +11,10 @@
 <div th:replace="Fragments/navbar"></div>
 
 <h1>4X4 SUV</h1>
+<ul th:each="vehicule : ${vehicules}">
+    <span th:text="${vehicule.nom}"></span>
+</ul>
+
 
 </body>
 </html>

@@ -16,23 +16,14 @@ public class ImageManager {
     String path;
 
     public int saveImage1(Vehicules v, InputStream fi) {
-        v.setImage1(save("v", "image1", fi));
+        v.setImage1(save(  fi));
         return 0;
     }
 
-    public int saveImage2(Vehicules v, InputStream fi) {
-        v.setImage1(save("v", "image2", fi));
-        return 0;
-    }
 
-    public int saveImage3(Vehicules v, InputStream fi) {
-        v.setImage1(save("v", "image3", fi));
-        return 0;
-    }
-
-    private String save(String prefix, String subPath, InputStream fi) {
+    private String save( InputStream fi) {
         String fileName = "";
-        try (DirectoryStream<Path> dir = Files.newDirectoryStream(Paths.get(path + "/" + subPath), prefix + "*")) {
+        try (DirectoryStream<Path> dir = Files.newDirectoryStream(Paths.get(path + "/" ),  "*")) {
 
             for (Path file : dir
             ) {
@@ -46,9 +37,9 @@ public class ImageManager {
 
             numStr = String.format("%04d", num + 1);
 
-            fileName = prefix + numStr + ".jpg";
+            fileName =  numStr + ".jpg";
 
-            String filePath = path + "/" + subPath + "/" + fileName;
+            String filePath = path + "/" + fileName;
 
             Files.copy(fi, new File(filePath).toPath());
 
@@ -58,21 +49,15 @@ public class ImageManager {
         return fileName;
     }
     public InputStream retreiveImage1(String fileName){
-        return retreiveImage("image1", fileName);
+        return retreiveImage( fileName);
     }
 
-    public InputStream retreiveImage2(String fileName){
-        return retreiveImage("image2", fileName);
-    }
 
-    public InputStream retreiveImage3(String fileName){
-        return retreiveImage("image3", fileName);
-    }
 
-    private InputStream retreiveImage(String subPath, String fileName){
+    private InputStream retreiveImage( String fileName){
         InputStream is = null;
         try {
-            is = new FileInputStream(path+"/"+subPath+"/"+fileName);
+            is = new FileInputStream(path+ "/" +fileName);
         } catch (FileNotFoundException fnfe) {
             System.out.println("Erreur récupération de l'image "+fileName+" : "+fnfe.getMessage());
         }

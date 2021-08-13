@@ -8,8 +8,7 @@ import java.util.Objects;
 public class Vehicules {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID", nullable = false)
-    private long id;
+    private Long id;
     @Basic
     @Column(name = "NAME", nullable = false, length = 1000)
     private String nom;
@@ -29,14 +28,13 @@ public class Vehicules {
     @Column(name = "IMAGE3",nullable = false,length = 250)
     private String image3;
     @ManyToOne
-    @JoinColumn(name ="CATEGORY")
-    private Type category;
+    private Type type;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -88,12 +86,13 @@ public class Vehicules {
         this.image3 = image3;
     }
 
-    public Type getCategory() {
-        return category;
+
+    public Type getType() {
+        return type;
     }
 
-    public void setCategory(Type idType) {
-        this.category = idType;
+    public void setType(Type type) {
+        this.type = type;
     }
 
     @Override

@@ -17,7 +17,6 @@ import java.io.IOException;
 import java.io.InputStream;
 
 @Controller
-@RequestMapping(value = "/img")
 public class ImageController {
    VehiculesRepository vehiculeDao;
    ImageManager imageManager;
@@ -27,11 +26,11 @@ public class ImageController {
       this.vehiculeDao=vehiculesRepository;
       this.imageManager=imageManager;
    }
-   @GetMapping(value = "/admin/{id}", produces = MediaType.IMAGE_JPEG_VALUE)
+   @GetMapping(value = "/img/{imageName}", produces = MediaType.IMAGE_JPEG_VALUE)
    public @ResponseBody
    byte[]
-   image1(@PathVariable("id") Long id) {
-      String imageName = vehiculeDao.findById(id).get().getImage1();
+   image1(@PathVariable("imageName") String imageName) {
+      //String imageName = vehiculeDao.findById(id).get().getImage1();
       InputStream is = imageManager.retreiveImage1(imageName);
       byte[] image = null;
       try {

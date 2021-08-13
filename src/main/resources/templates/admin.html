@@ -8,7 +8,7 @@
 </head>
 <body>
 <div th:replace="Fragments/navbar"></div>
-  <h1> Administrateur</h1>
+  <h1 class="text-center"> Administrateur</h1>
 <div class="container">
 
 <ul  th:each="vehicule: ${vehicules}">
@@ -16,9 +16,10 @@
         <span th:text="${vehicule.nom}"></span><br>Description:
         <span th:text="${vehicule.description}"></span><br>Prix:
         <span th:text="${vehicule.prix}"></span><br>
-        <img src="/images/Prestige-Cab(1).png" th:src="@{'/img/vehicule/image1/'+*{vehicule.image1}}" alt="image1"><br>
-        <span th:text="${vehicule.image2}"></span><br>
-        <span th:text="${vehicule.image3}"></span><br>
+        <img src="/images/Prestige-Cab(1).png" th:src="@{'/img/'+*{vehicule.image1}}" alt="image1"><br>
+        <img src="/images/Prestige-Cab(1).png" th:src="@{'/img/'+*{vehicule.image2}}" alt="image1"><br>
+        <img src="/images/Prestige-Cab(1).png" th:src="@{'/img/'+*{vehicule.image3}}" alt="image1"><br>
+
         <a href="#" th:href="@{'/admin/'+${vehicule.id}}">Edit</a>
         <a href="#" th:href="@{'/admin/delete/'+${vehicule.id}}">Supprimer</a>
     </li>

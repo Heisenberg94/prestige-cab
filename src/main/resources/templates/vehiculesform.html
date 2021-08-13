@@ -20,14 +20,16 @@
 <div class="row">
     <div class="col-md-6">
     <input class="form-control" placeholder="NOM" th:field="*{nom}" type="text"><br/>
-    <textarea class="form-control" placeholder="DESCRIPTION" cols="80" rows="10" th:field="*{description}">Résumé du film</textarea><br/>
+    <textarea class="form-control" placeholder="DESCRIPTION" cols="80" rows="10" th:field="*{description}"></textarea><br/>
     <input class="form-control" placeholder="PRIX" th:field="*{prix}" type="text"><br/>
 </div>
     <div class="col-md-6">
     <input class="form-control" placeholder="IMAGE_1" th:field="*{image1}" type="text"><br/>
     <input class="form-control" placeholder="IMAGE_2" th:field="*{image2}" type="text"><br/>
     <input class="form-control" placeholder="IMAGE_3" th:field="*{image3}" type="text"><br/>
-
+    <select th:field="*{type}">
+        <option th:each="type:${types}" th:value="${type.id}" th:utext="${type.nom}" th:selected="(${type.id}==*{type})"></option>
+    </select>
     </div>
 </div>
     <input class="btn btn-primary" type="submit" value="Valider"><br/>

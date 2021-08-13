@@ -9,14 +9,12 @@ import java.util.Objects;
 public class Type {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID",nullable = false)
     private long id;
     @Basic
     @Column(name = "NAME",nullable = false)
     private String nom;
-    @ManyToOne
-    @JoinColumn(name = "CATEGORY")
-    private Vehicules vehicules;
+    @OneToMany(mappedBy = "type")
+    private Collection <Vehicules> vehicules;
 
     public long getId() {
         return id;
@@ -34,11 +32,11 @@ public class Type {
         this.nom = nom;
     }
 
-    public Vehicules getVehicules() {
+    public Collection<Vehicules> getVehicules() {
         return vehicules;
     }
 
-    public void setVehicules(Vehicules vehicules) {
+    public void setVehicules(Collection<Vehicules> vehicules) {
         this.vehicules = vehicules;
     }
 
