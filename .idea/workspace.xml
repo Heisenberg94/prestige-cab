@@ -5,36 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3198a475-e9e4-46ed-a29e-c0a9c04bafed" name="Default Changelist" comment="Avancement projet">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/ApiRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/dto/TypeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/dto/VehiculeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/saveData.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prestige-cab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/prestige-cab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Vehicules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/Model/Vehicules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/ImageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/controller/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/dao/TypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/dao/TypeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/dao/VehiculesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/dao/VehiculesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/formdata/VehiculesFormDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/formdata/VehiculesFormDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/ImageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/ImageManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/VoituresDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prestigecab/prestigecab/services/VoituresDataSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/prestige_cab.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Fragments/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Fragments/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/berline.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/berline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/citadine.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/citadine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/monospace.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/monospace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sport.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/suv.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/suv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/utilitaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/utilitaire.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vehiculesform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vehiculesform.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/prestigecab/prestigecab/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prestigecab/prestigecab/controller/Main.class" afterDir="false" />
     </list>
@@ -71,11 +44,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bookstore" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -185,7 +157,8 @@
       <workItem from="1621605297521" duration="5197000" />
       <workItem from="1626275485387" duration="1954000" />
       <workItem from="1626361299877" duration="1931000" />
-      <workItem from="1628813580283" duration="723000" />
+      <workItem from="1628813580283" duration="2492000" />
+      <workItem from="1629406868974" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="Tout">
       <created>1612569877410</created>
@@ -292,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615760464654</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Avancement projet">
+      <created>1628814337160</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1628814337160</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
