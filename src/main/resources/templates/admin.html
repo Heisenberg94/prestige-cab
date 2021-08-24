@@ -14,7 +14,7 @@
 <ul  th:each="vehicule: ${vehicules}">
     <li>
         <span th:text="${vehicule.nom}"></span><br>Description:
-        <span th:text="${vehicule.description}"></span><br>Prix:
+        <span th:text="${vehicule.description}"></span><br>Prix :
         <span th:text="${vehicule.prix}"></span><br>
         <img src="/images/Prestige-Cab(1).png" th:src="@{'/img/'+*{vehicule.image1}}" alt="image1"><br>
         <img src="/images/Prestige-Cab(1).png" th:src="@{'/img/'+*{vehicule.image2}}" alt="image1"><br>
